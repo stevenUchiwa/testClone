@@ -28,6 +28,10 @@ body{
     to{background-color: #ffffff;}
     
 }
+.containerMenuHumburger{
+  border: 1px solid red;
+  padding: 0.5em;
+}
 .humburgerMidle{
     display: inline-block;
     width: 23px;
