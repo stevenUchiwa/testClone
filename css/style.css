@@ -11,7 +11,7 @@ body{
 .headerSousMenu{
     background-color: transparent;
     width: 100%;
-    height: 15vh;
+    height: 13.5vh;
     display: flex;
     justify-content: center;
     flex-direction:column;
@@ -30,9 +30,9 @@ body{
 }
 .humburgerMidle{
     display: inline-block;
-    width: 25px;
-    height: 3px;
-    background-color: seagreen;
+    width: 23px;
+    height: 2px;
+    background-color: #adaba5;
     
 }
 .humburgerMidle::before{
@@ -40,18 +40,18 @@ body{
     display: block;
     position: relative;
     top: -6px;
-    width: 25px;
-    height: 3px;
-    background-color: seagreen;
+    width: 23px;
+    height: 2px;
+    background-color: #adaba5;
 }
 .humburgerMidle::after{
     content: '';
     display: block;
     position: relative;
-    bottom: -3px;
-    width: 25px;
-    height: 3px;
-    background-color: seagreen;
+    bottom: -4px;
+    width: 23px;
+    height: 2px;
+    background-color: #adaba5;
     clear: both;
 }
 .headerContainerMenu{
@@ -81,4 +81,7 @@ body{
 }
 .three{
     background-color: salmon;
+}
+.logo-dark{
+    display: none;
 }
