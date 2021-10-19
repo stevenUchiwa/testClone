@@ -1,6 +1,6 @@
-var TopBar = document.querySelector(".headerSousMenu");
-var logoSimple = document.querySelector(".logo");
-var logoDark = document.querySelector('.logo-dark');
+const TopBar = document.querySelector(".headerSousMenu");
+const logoSimple = document.querySelector(".logo");
+const logoDark = document.querySelector('.logo-dark');
 
 document.addEventListener("scroll",(element, env) =>{
      if(window.scrollY > 10){
