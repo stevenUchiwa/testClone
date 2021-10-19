@@ -1,6 +1,6 @@
 1 - Changement logo si le banner blanche est afficher -- OK
 2 - Midification couleur du menu humburger -- OK
-3 - Animation du menu humberger et affichage du contenu du menu -- 
+3 - Animation du menu humberger et affichage du contenu du menu -- en cours 
 4 - Intégration du slider
 5 - Intégration du contenu 1
 6 - Ajout du bouton vers le haut et gestion des animation
