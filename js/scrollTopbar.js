@@ -13,3 +13,4 @@ document.addEventListener("scroll",(element, env) =>{
         logoSimple.style.display= 'block';
      }
 });
+
