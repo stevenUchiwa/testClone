@@ -142,3 +142,37 @@ body{
 
     }
 }
+
+/*    -------  REVERSE --------------- */
+@keyframes menuTransformReverse {
+    from {
+        
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+/* ANIMATION HUMBERGER GAUCHE */
+@keyframes menuHumburgerGaucheReverse {
+    from{
+       top: -4px;
+       width: 10px;
+       transform: skewY(-35deg);
+    }
+    to{
+        top: -6px;
+       width: 23px;
+    }
+}
+/* ANIMATION HUMBERGER DROITE */
+@keyframes menuHumbergerDroiteReverse {
+    from{
+        bottom: -2px;
+        width: 10px;
+        transform: skewY(35deg);
+    }to{
+        bottom: -6px;
+        width: 23px;
+    }
+}
